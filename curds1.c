@@ -171,6 +171,7 @@ void del(int id1)
         fread(&ee1,1,sizeof(ee1),fp);
         fwrite(&ee1,1,sizeof(ee1),fp1);c++;
          return; 
-}}
+}
+}
    fclose(fp);
 }
